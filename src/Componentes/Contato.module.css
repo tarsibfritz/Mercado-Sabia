@@ -1,0 +1,16 @@
+.container {
+    background-color: rgb(251, 220, 208);
+    border-radius: 40px;
+    padding: 2em;
+    width: max-content;
+    margin: 0 auto;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.contatoTitulo {
+    color: rgb(255, 130, 130);
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: 'Poetsen One';
+}

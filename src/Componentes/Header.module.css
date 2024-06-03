@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.header {
+    padding: 0.6em;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(232, 145, 130);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.linkmenu {
+    text-decoration: none;
+    color: #fff;
+}
+
+.linkmenu {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+
+.linkmenu::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.4s ease-in-out;
+}
+
+.linkmenu:hover::after {
+    width: 100%;
+}
+
+

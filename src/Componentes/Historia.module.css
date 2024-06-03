@@ -1,0 +1,26 @@
+.historiaContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em;
+}
+
+.historiaImageContainer img{
+    width: 70vmax;
+    height: auto;
+    margin: 0 0.4em;
+    border-radius: 1em;
+}
+
+.historiaContent h1{
+    color: rgb(255, 130, 130);
+    font-size: 50px;
+    font-family: Poetsen One;
+    margin: 1em 0em 0.1em 0em;
+}
+
+.historiaContent p{
+    font-weight: 560;
+    font-size: 14px;
+    padding: 1em 4em 0em 4em ;
+}

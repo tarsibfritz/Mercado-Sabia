@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.inicio{
+    font-family: 'Poetsen One';
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+}
+
+

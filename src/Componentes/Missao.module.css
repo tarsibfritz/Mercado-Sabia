@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.missao {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.missaoTitulo {
+    color: rgb(255, 130, 130);
+    font-size: 50px;
+    padding: 100px 30px;
+    font-family: 'Poetsen One';
+}
